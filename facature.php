@@ -9,7 +9,7 @@
     <title>Facature - ClearTorrent</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="facature">
 
 <header>ClearTorrent Facature</header>
 
@@ -24,13 +24,6 @@
 
         <label>Emailadres</label>
         <input type="email" name="email" required>
-
-        <label>Betaalmethode</label>
-        <select name="payment" required>
-            <option value="ideal">iDEAL</option>
-            <option value="paypal">PayPal</option>
-            <option value="creditcard">Creditcard</option>
-        </select>
 
         <button class="pay-btn" type="submit">Bevestigen</button>
     </form>
