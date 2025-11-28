@@ -2,35 +2,35 @@
 // checkout.php for Keytron VirtualKey Webshop
 ?>
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facature - ClearTorrent</title>
+    <title>Invoice - ClearTorrent</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="facature">
+<body class="invoice">
 
-<header>ClearTorrent Facature</header>
+<header>ClearTorrent Invoice</header>
 
 <div class="checkout-container">
-    <h2>Factuurgegevens</h2>
+    <h2>Invoice Details</h2>
     <form action="payment.php" method="POST">
-        <label>Voornaam</label>
+        <label>First Name</label>
         <input type="text" name="firstname" required>
 
-        <label>Achternaam</label>
+        <label>Last Name</label>
         <input type="text" name="lastname" required>
 
-        <label>Emailadres</label>
+        <label>Email Address</label>
         <input type="email" name="email" required>
 
-        <button class="pay-btn" type="submit">Bevestigen</button>
+        <button class="pay-btn" type="submit">Confirm</button>
     </form>
 </div>
 
 <footer>
-    &copy; <?php echo date("Y"); ?> ClearTorrent. Alle rechten voorbehouden.
+    &copy; <?php echo date("Y"); ?> ClearTorrent. All rights reserved.
 </footer>
 
 </body>

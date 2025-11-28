@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class="checkout-container">
-        <h1>Bedankt voor uw bestelling!</h1>
-        <p>We sturen u een e-mail met de details van uw bestelling.</p>
+        <h1>Thank you for your order!</h1>
+        <p>We will send you an email with your order details.</p>
     </div>
 </body>
 <footer>
-    &copy; <?php echo date("Y"); ?> ClearTorrent. Alle rechten voorbehouden.
+    &copy; <?php echo date("Y"); ?> ClearTorrent. All rights reserved.
 </footer>
 </html>

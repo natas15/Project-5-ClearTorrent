@@ -8,23 +8,23 @@
 </head>
 <body>
     <div class="order-summary">
-        <h2>Jouw Bestelling</h2>
+        <h2>Your Order</h2>
         <p>Product: <strong><?php echo $_POST['product'] ?? 'Game Key'; ?></strong></p>
-        <p>Prijs: <strong>€<?php echo $_POST['price'] ?? '0.00'; ?></strong></p>
+        <p>Price: <strong>€<?php echo $_POST['price'] ?? '0.00'; ?></strong></p>
     </div>
     <div class="checkout-container">
         <form action="confirmation.php" method="POST">
-        <label>Betaalmethode</label>
+        <label>Payment Method</label>
             <select name="payment" required>
                 <option value="ideal">iDEAL</option>
                 <option value="paypal">PayPal</option>
-                <option value="creditcard">Creditcard</option>
+                <option value="creditcard">Credit Card</option>
             </select>
-            <button class="pay-btn" type="submit">Afrekenen</button>
+            <button class="pay-btn" type="submit">Checkout</button>
         </form>
     </div>
 </body>
 <footer>
-    &copy; <?php echo date("Y"); ?> ClearTorrent. Alle rechten voorbehouden.
+    &copy; <?php echo date("Y"); ?> ClearTorrent. All rights reserved.
 </footer>
 </html>
