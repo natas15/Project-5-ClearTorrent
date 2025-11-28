@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="order-summary">
-            <h2>Jouw Bestelling</h2>
-            <p>Product: <strong><?php echo $_POST['product'] ?? 'Game Key'; ?></strong></p>
-            <p>Prijs: <strong>€<?php echo $_POST['price'] ?? '0.00'; ?></strong></p>
+        <h2>Jouw Bestelling</h2>
+        <p>Product: <strong><?php echo $_POST['product'] ?? 'Game Key'; ?></strong></p>
+        <p>Prijs: <strong>€<?php echo $_POST['price'] ?? '0.00'; ?></strong></p>
     </div>
     <div class="checkout-container">
         <form action="confirmation.php" method="POST">
@@ -24,4 +24,7 @@
         </form>
     </div>
 </body>
+<footer>
+    &copy; <?php echo date("Y"); ?> ClearTorrent. Alle rechten voorbehouden.
+</footer>
 </html>

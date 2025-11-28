@@ -12,4 +12,7 @@
         <p>We sturen u een e-mail met de details van uw bestelling.</p>
     </div>
 </body>
+<footer>
+    &copy; <?php echo date("Y"); ?> ClearTorrent. Alle rechten voorbehouden.
+</footer>
 </html>
