@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="checkout-container">
-        <h1>Thank you for your order!</h1>
-        <p>We will send you an email with your order details.</p>
+        <h1>Bedankt voor uw bestelling!</h1>
+        <p>We sturen u een e-mail met de details van uw bestelling.</p>
     </div>
 </body>
 </html>
