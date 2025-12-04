@@ -6,15 +6,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invoice - ClearTorrent</title>
+    <title>ClearTorrent</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="invoice">
+<body>
 
-<header>ClearTorrent Invoice</header>
+<header>ClearTorrent</header>
 
 <div class="checkout-container">
-    <h2>Invoice Details</h2>
+    <h2>User Details</h2>
     <form action="payment.php" method="POST">
         <label>First Name</label>
         <input type="text" name="firstname" required>
