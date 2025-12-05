@@ -25,8 +25,8 @@
     </nav>
 
     <div class="checkout-container">
-        <h2>featured games</h2>
-        <p>Explore, download and play.</p>
+        <h2>Featured games</h2>
+        <p>Explore, Download and Play.</p>
         <div class="slideshow">
             <input type="radio" name="slide" id="s1" checked>
             <input type="radio" name="slide" id="s2">
@@ -56,10 +56,10 @@
     </div>
 
     <div class="order-summary">
-        <h2>latest updates</h2>
-        <p>new tools added</p>
-        <p>improved ui</p>
-        <p>faster performance</p>
+        <h2>Latest updates</h2>
+        <p>New tools added</p>
+        <p>Improved ui</p>
+        <p>Faster performance</p>
     </div>
 
     <footer>
