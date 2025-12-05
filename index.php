@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keytron - Home</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -15,11 +16,11 @@
     <nav class="site-nav">
         <a class="nav-brand" href="/">ClearTorrent</a>
         <ul class="nav-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Games</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="products.php">Games</a></li>
+            <li><a href="about.php">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a class="nav-cta" href="#">Checkout</a></li>
+            <li><a class="nav-cta" href="userdetails.php">Checkout</a></li>
         </ul>
     </nav>
 
