@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        ClearTorrent
+    </header>
     <div class="checkout-container">
         <form action="confirmation.php" method="POST">
             <h2>Contact Us</h2>

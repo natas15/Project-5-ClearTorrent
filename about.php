@@ -10,6 +10,9 @@
     <title>Keytron - About</title>
 </head>
 <body>
+    <header>
+        ClearTorrent
+    </header>
 
 <div class="checkout-container">
     <h2>Over ClearTorrent</h2>
