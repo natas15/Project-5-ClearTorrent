@@ -63,7 +63,7 @@
     </div>
 
     <footer>
-        © 2025 ClearTorrent. All rights reserved.
+        &copy; <?php echo date("Y"); ?> ClearTorrent. All rights reserved.
     </footer>
 </body>
 
