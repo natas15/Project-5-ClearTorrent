@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="checkout-container">
-        <h1>Thank you for your order!</h1>
-        <p>We will send you an email with your order details.</p>
+    <div class="checkout-container" action="index.php" method="POST">
+        <h1>Thank you for your message!</h1>
+        <p>We will send you an email with our reply as soon as possible.</p>
+        <form action="index.php" method="POST">
+        <button class="pay-btn" type="submit">Back to Home</button>
+        </form>
     </div>
 </body>
 <footer>
