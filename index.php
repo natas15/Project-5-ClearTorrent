@@ -55,11 +55,11 @@
         </div>
     </div>
 
-    <div class="order-summary">
-        <h2>Latest updates</h2>
-        <p>New tools added</p>
+    <div class="checkout-container">
+        <h2>Latest Updates</h2>
+        <p>New Tools Added</p>
         <p>Improved UI</p>
-        <p>Faster performance</p>
+        <p>Faster Performance</p>
     </div>
 
     <footer>
