@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="checkout-container">
     <h2>Over ClearTorrent</h2>
     <p>Welkom bij <span class="highlight">ClearTorrent</span>, jouw digitale hub voor directe en veilige gamekeys. Wij geloven dat gamen snel, simpel en betaalbaar moet zijn. Daarom leveren wij kwalitatieve digitale producten zonder gedoe.</p>
 
