@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>ClearTorrent - Contact</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,5 +25,8 @@
             <button class="pay-btn" type="submit">Send</button>
         </form>
     </div>
+<footer>
+    &copy; <?php echo date("Y"); ?> ClearTorrent. All rights reserved.
+</footer>
 </body>
 </html>
