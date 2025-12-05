@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keytron - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -15,17 +16,17 @@
     <nav class="site-nav">
         <a class="nav-brand" href="/">ClearTorrent</a>
         <ul class="nav-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Games</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="Games.php">Games</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li><a class="nav-cta" href="#">Checkout</a></li>
         </ul>
     </nav>
 
     <div class="checkout-container">
-        <h2>featured games</h2>
-        <p>Explore, download and play.</p>
+        <h2>Featured Games</h2>
+        <p>Explore, Download and Play.</p>
         <div class="slideshow">
             <input type="radio" name="slide" id="s1" checked>
             <input type="radio" name="slide" id="s2">
