@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <header>
+        ClearTorrent
+    </header>
+    <?php 
+    include("includes/nav.php");
+    ?>
+
 </body>
 </html>
