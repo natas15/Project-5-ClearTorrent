@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keytron - Home</title>
+    <title>ClearTorrent - Home</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -12,18 +12,9 @@
     <header>
         ClearTorrent
     </header>
-
-    <nav class="site-nav">
-        <a class="nav-brand" href="/">ClearTorrent</a>
-        <ul class="nav-menu">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="Games.php">Games</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a class="nav-cta" href="#">Checkout</a></li>
-        </ul>
-    </nav>
-
+    <?php 
+    include("includes/nav.php");
+    ?>
     <div class="checkout-container">
         <h2>Featured Games</h2>
         <p>Explore, Download and Play.</p>
@@ -31,7 +22,6 @@
             <input type="radio" name="slide" id="s1" checked>
             <input type="radio" name="slide" id="s2">
             <input type="radio" name="slide" id="s3">
-
 
             <div class="slide" id="slide1">
                 <img src="img/game1." alt="">
@@ -44,8 +34,6 @@
             <div class="slide" id="slide3">
                 <img src="images/game3.jpg" alt="">
             </div>
-
-
 
             <div class="nav">
                 <label for="s1"></label>
