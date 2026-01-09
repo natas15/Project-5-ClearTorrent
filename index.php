@@ -34,7 +34,7 @@
                         <a class="btn" href="Games.php">Download</a>
                     </div>
                     <div class="game-card">
-                        <img src="img/Benjamin_Netanyahu,_February_2023.jpg" alt="Mystic Quest">
+                        <img src="img/IMG_4718.png" alt="Mystic Quest">
                         <h3>goyslop soccer game 2</h3>
                         <p>instead of a normal soccer ball, its a decapitated head of a goyim</p>
                         <a class="btn" href="Games.php">Download</a>
