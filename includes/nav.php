@@ -5,5 +5,6 @@
             <li><a href="Games.php">Games</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="contact.php">Contact</a></li>
+            <li><a class="nav-cta" href="userdetails.php">login/register</a></li>
         </ul>
 </nav>

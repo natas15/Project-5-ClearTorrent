@@ -26,7 +26,6 @@
         </ul>
     </nav>
 
-    <header>ClearTorrent</header>
 
     <div class="checkout-container">
         <h2>User Details</h2>
