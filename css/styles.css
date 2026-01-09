@@ -414,3 +414,61 @@ footer {
     .nav{ bottom: 8px; gap: 8px; }
     .nav label{ width: 10px; height: 10px; }
 }
+
+.game-grid {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px;
+    padding: 10px;
+}
+
+.game-card {
+    background: #1c1c2b;
+    border-radius: 14px;
+    overflow: hidden;
+    padding: 16px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.45);
+    transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.game-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 22px rgba(0,0,0,0.6);
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.game-card h3 {
+    color: #4ac1ff;
+    margin: 8px 0 6px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.game-card p {
+    color: #c9c9d5;
+    font-size: 0.95rem;
+    margin-bottom: 14px;
+}
+
+.game-card .btn {
+    display: inline-block;
+    background: linear-gradient(90deg,#4ac1ff,#7c3aed);
+    color: #081014;
+    padding: 10px 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: opacity 150ms ease, transform 150ms ease;
+}
+
+.game-card .btn:hover {
+    opacity: .85;
+    transform: translateY(-2px);
+}

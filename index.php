@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keytron - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -19,39 +20,32 @@
             <li><a href="#">Games</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a class="nav-cta" href="#">Checkout</a></li>
+            <li><a class="nav-cta" href="userdetails.php">Log in/Register</a></li>
         </ul>
     </nav>
 
     <div class="checkout-container">
         <h2>featured games</h2>
         <p>Explore, download and play.</p>
-        <div class="slideshow">
-            <input type="radio" name="slide" id="s1" checked>
-            <input type="radio" name="slide" id="s2">
-            <input type="radio" name="slide" id="s3">
-
-
-            <div class="slide" id="slide1">
-                <img src="img/game1." alt="">
+        <div class="game-grid">
+            <div class="game-card">
+                <img src="images/game1.jpg" alt="Game 1">
+                <h3>Game Title 1</h3>
+                <p>Exciting adventure game.</p>
+                <a href="checkout.php" class="btn">Buy Now</a>
             </div>
-
-            <div class="slide" id="slide2">
-                <img src="images/game2.jpg" alt="">
+            <div class="game-card">
+                <img src="images/game2.jpg" alt="Game 2">
+                <h3>Game Title 2</h3>
+                <p>Thrilling action game.</p>
+                <a href="checkout.php" class="btn">Buy Now</a>
             </div>
-
-            <div class="slide" id="slide3">
-                <img src="images/game3.jpg" alt="">
+            <div class="game-card">
+                <img src="images/game3.jpg" alt="Game 3">
+                <h3>Game Title 3</h3>
+                <p>Challenging puzzle game.</p>
+                <a href="checkout.php" class="btn">Buy Now</a>
             </div>
-
-
-
-            <div class="nav">
-                <label for="s1"></label>
-                <label for="s2"></label>
-                <label for="s3"></label>
-            </div>
-        </div>
     </div>
 
     <div class="checkout-container">
