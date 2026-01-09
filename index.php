@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Keytron - Home</title>
 </head>
 
@@ -15,46 +16,39 @@
     <nav class="site-nav">
         <a class="nav-brand" href="/">ClearTorrent</a>
         <ul class="nav-menu">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#">Games</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a class="nav-cta" href="#">Checkout</a></li>
+            <li><a class="nav-cta" href="#">login/register</a></li>
         </ul>
     </nav>
 
-    <div class="checkout-container">
-        <h2>featured games</h2>
-        <p>Explore, download and play.</p>
-        <div class="slideshow">
-            <input type="radio" name="slide" id="s1" checked>
-            <input type="radio" name="slide" id="s2">
-            <input type="radio" name="slide" id="s3">
-
-
-            <div class="slide" id="slide1">
-                <img src="img/game1." alt="">
-            </div>
-            <div class="game-card">
-                <img src="images/game2.jpg" alt="Game 2">
-                <h3>Game Title 2</h3>
-                <p>Thrilling action game.</p>
-                <a href="checkout.php" class="btn">Buy Now</a>
-            </div>
-
-            <div class="slide" id="slide3">
-                <img src="images/game3.jpg" alt="">
-            </div>
-
-
-
-            <div class="nav">
-                <label for="s1"></label>
-                <label for="s2"></label>
-                <label for="s3"></label>
-            </div>
+    <div class="main-content">
+            <section class="featured">
+                <h2>Featured Games</h2>
+                <div class="game-grid">
+                    <div class="game-card">
+                        <img src="img/game1.jpg" alt="Nova Strike">
+                        <h3>Nova Strike</h3>
+                        <p>Fast-paced space shooter with stunning visuals.</p>
+                        <a class="btn" href="Games.php">Download</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="img/game2.jpg" alt="Mystic Quest">
+                        <h3>Mystic Quest</h3>
+                        <p>Atmospheric puzzle-adventure with rich storytelling.</p>
+                        <a class="btn" href="Games.php">Download</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="img/game3.jpg" alt="Turbo Racers">
+                        <h3>Turbo Racers</h3>
+                        <p>High-speed racing action with customizable rides.</p>
+                        <a class="btn" href="Games.php">Download</a>
+                    </div>
+                </div>
+            </section>
         </div>
-    </div>
 
     <div class="checkout-container">
         <h2>Latest Updates</h2>
