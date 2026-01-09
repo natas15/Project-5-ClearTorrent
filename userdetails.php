@@ -14,19 +14,7 @@
     <header>
         ClearTorrent
     </header>
-
-    <nav class="site-nav">
-        <a class="nav-brand" href="/">ClearTorrent</a>
-        <ul class="nav-menu">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="games.php">Games</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a class="nav-cta" href="userdetails.php">login/register</a></li>
-        </ul>
-    </nav>
-
-
+    <?php include("includes/nav.php"); ?>
     <div class="checkout-container">
         <h2>User Details</h2>
         <form action="payment.php" method="POST">

@@ -5,25 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Keytron - Home</title>
+    <title>ClearTorrent - Home</title>
 </head>
 
 <body>
     <header>
         ClearTorrent
     </header>
-
-    <nav class="site-nav">
-        <a class="nav-brand" href="/">ClearTorrent</a>
-        <ul class="nav-menu">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="games.php">Games</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a class="nav-cta" href="userdetails.php">login/register</a></li>
-        </ul>
-    </nav>
-
+    <?php include("includes/nav.php"); ?>
     <div class="main-content">
             <section class="featured">
                 <div class="game-grid">

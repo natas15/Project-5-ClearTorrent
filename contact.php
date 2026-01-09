@@ -12,10 +12,7 @@
     <header>
         ClearTorrent
     </header>
-
-    <?php
-    include("includes/nav.php");
-    ?>
+    <?php include("includes/nav.php"); ?>
     <div class="checkout-container">
         <form action="confirmation.php" method="POST">
             <h2>Contact Us</h2>
