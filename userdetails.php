@@ -11,9 +11,6 @@
 </head>
 
 <body>
-    <header>
-        ClearTorrent
-    </header>
 
     <nav class="site-nav">
         <a class="nav-brand" href="/">ClearTorrent</a>

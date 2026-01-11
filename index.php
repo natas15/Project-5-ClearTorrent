@@ -5,14 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Keytron - Home</title>
+    <title>ClearTorrent - Home</title>
 </head>
 
 <body>
-    <header>
-        ClearTorrent
-    </header>
-
     <nav class="site-nav">
         <a class="nav-brand" href="/">ClearTorrent</a>
         <ul class="nav-menu">
@@ -26,25 +22,41 @@
 
     <div class="main-content">
             <section class="featured">
-                <div class="game-grid">
-                    <div class="game-card">
-                        <img src="img/artworks-1QArLj0ydyLXy3gk-dPifYg-t1080x1080.jpg" alt="Gem alarm simulator 4">
-                        <h3>Gem alarm simulator 4</h3>
-                        <p>Generate some gems for a lot of upvotes.</p>
-                        <a class="btn" href="Games.php">Download</a>
-                    </div>
-                    <div class="game-card">
-                        <img src="img/IMG_4718.png" alt="Mystic Quest">
-                        <h3>goyslop soccer game 2</h3>
-                        <p>instead of a normal soccer ball, its a decapitated head of a goyim</p>
-                        <a class="btn" href="Games.php">Download</a>
-                    </div>
-                    <div class="game-card">
-                        <img src="img/capsule_616x353.jpg" alt="T">
-                        <h3>Triple T killing massacre</h3>
-                        <p>Triple T, also known as Tung tung tung sahur is doing a huge killing spree after the dead of Lospollostv. He is also the creator of The bloods gang .</p>
-                        <a class="btn" href="Games.php">Download</a>
-                    </div>
+                <h2>Featured Games</h2>
+                <?php
+                $jsonData = file_get_contents('https://hydralinks.pages.dev/sources/onlinefix.json');
+                $games = json_decode($jsonData, true)['downloads'];
+                
+                shuffle($games);
+                $featuredGames = array_slice($games, 0, 3);
+                ?>
+                <div class="featured-games-grid">
+                    <?php foreach ($featuredGames as $game): ?>
+                        <?php
+                        $title = htmlspecialchars($game['title'] ?? 'Unknown Game');
+                        $fileSize = htmlspecialchars($game['fileSize'] ?? 'Unknown Size');
+                        $uploadDate = isset($game['uploadDate']) ? date('M d, Y', strtotime($game['uploadDate'])) : 'Unknown Date';
+                        $magnetLink = htmlspecialchars($game['uris'][0] ?? '');
+                        ?>
+                        <div class="featured-card">
+                            <div class="featured-card-header">
+                                <h3 class="featured-title"><?php echo $title; ?></h3>
+                            </div>
+                            <div class="featured-card-body">
+                                <div class="featured-info">
+                                    <span class="featured-label">Size:</span>
+                                    <span class="featured-value"><?php echo $fileSize; ?></span>
+                                </div>
+                                <div class="featured-info">
+                                    <span class="featured-label">Date:</span>
+                                    <span class="featured-value"><?php echo $uploadDate; ?></span>
+                                </div>
+                            </div>
+                            <div class="featured-card-footer">
+                                <a href="<?php echo $magnetLink; ?>" class="featured-btn">Download</a>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
             </section>
         </div>

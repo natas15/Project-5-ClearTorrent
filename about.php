@@ -9,9 +9,6 @@
 </head>
 
 <body>
-    <header>
-        ClearTorrent
-    </header>
     <?php
     include("includes/nav.php");
     ?>
