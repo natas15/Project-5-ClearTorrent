@@ -25,7 +25,7 @@
             <section class="featured">
                 <h2>Featured Games</h2>
                 <?php
-                $jsonData = file_get_contents('https://hydralinks.pages.dev/sources/onlinefix.json');
+                $jsonData = file_get_contents('https://hydralinks.pages.dev/sources/steamrip.json');
                 $games = json_decode($jsonData, true)['downloads'];
                 
                 shuffle($games);

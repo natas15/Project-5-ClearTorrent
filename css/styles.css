@@ -410,6 +410,107 @@ footer {
     font-size: 28px;
 }
 
+.search-bar-container {
+    position: relative;
+    margin-bottom: 50px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-search-input {
+    width: 100%;
+    padding: 14px 18px 14px 45px;
+    border: 2px solid #2196F3;
+    border-radius: 10px;
+    background: #1c1c2b;
+    color: #eaeaea;
+    font-size: 16px;
+    outline: none;
+    transition: all 200ms ease;
+    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.1);
+    box-sizing: border-box;
+}
+
+.game-search-input:focus {
+    border-color: #1976D2;
+    box-shadow: 0 4px 20px rgba(33, 150, 243, 0.3);
+    background: #222230;
+}
+
+.game-search-input::placeholder {
+    color: #888;
+}
+
+.search-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #2196F3;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.no-results {
+    text-align: center;
+    padding: 40px 20px;
+    color: #888;
+    font-size: 18px;
+    grid-column: 1 / -1;
+}
+
+.sort-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sort-label {
+    color: #eaeaea;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.sort-select {
+    padding: 10px 12px;
+    border: 2px solid #2196F3;
+    border-radius: 8px;
+    background: #1c1c2b;
+    color: #eaeaea;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    transition: all 200ms ease;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.1);
+    min-width: 140px;
+}
+
+.sort-select:hover {
+    border-color: #1976D2;
+    box-shadow: 0 4px 20px rgba(33, 150, 243, 0.2);
+}
+
+.sort-select:focus {
+    border-color: #1976D2;
+    box-shadow: 0 4px 20px rgba(33, 150, 243, 0.3);
+}
+
+.sort-select option {
+    background: #1c1c2b;
+    color: #eaeaea;
+    padding: 8px;
+}
+
 .games-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
