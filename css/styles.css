@@ -647,3 +647,41 @@ footer {
     font-weight: bold;
     padding: 0 10px;
 };
+.settings-form {
+    max-width: 400px;
+    margin: 25px auto;
+}
+
+.settings-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.settings-form button {
+    width: 100%;
+}
+
+.success {
+    color: #2e7d32;
+}
+
+.error {
+    color: #c62828;
+}
+
+.danger button {
+    background-color: #c62828;
+    color: white;
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.danger button:hover {
+    opacity: 0.9;
+}

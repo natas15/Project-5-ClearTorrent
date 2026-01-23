@@ -5,6 +5,12 @@
             <li><a href="Games.php">Games</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="contact.php">Contact</a></li>
-            <li><a class="nav-cta" href="userdetails.php">Login/Register</a></li>
+            <?php if (isset($_SESSION['user_id'])): ?>
+            <li><a href="account.php"><?= htmlspecialchars($_SESSION['name']) ?></a></li>
+            <li><a class="nav-cta" href="logout.php">Logout</a></li>
+            <?php else: ?>
+            <li><a class="nav-cta" href="login.php">Login / Register</a></li>
+            <?php endif; ?>
         </ul>
 </nav>
+
