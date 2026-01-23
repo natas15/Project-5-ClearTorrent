@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -9,9 +10,7 @@
 </head>
 
 <body>
-    <?php
-    include("includes/nav.php");
-    ?>
+    <?php include("includes/nav.php"); ?>
     <div class="checkout-container">
         <h2>About ClearTorrent</h2>
         <p>Welcome to <span class="highlight">ClearTorrent</span>, your trusted platform for fast, clean, and secure torrent discovery. Our goal is to make accessing open-source, free-to-share, and legally distributed files simple and efficient.</p>
