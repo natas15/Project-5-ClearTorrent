@@ -6,7 +6,7 @@
             <li><a href="about.php">About</a></li>
             <li><a href="contact.php">Contact</a></li>
             <?php if (isset($_SESSION['user_id'])): ?>
-            <li><?= htmlspecialchars($_SESSION['name']) ?></li>
+            <li><a href="account.php"><?= htmlspecialchars($_SESSION['name']) ?></a></li>
             <li><a class="nav-cta" href="logout.php">Logout</a></li>
             <?php else: ?>
             <li><a class="nav-cta" href="login.php">Login / Register</a></li>
