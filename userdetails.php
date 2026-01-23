@@ -26,7 +26,7 @@
 
     <div class="checkout-container">
         <h2>User Details</h2>
-        <form action="payment.php" method="POST">
+        <form action="success.php" method="POST">
             <label>First Name</label>
             <input type="text" name="firstname" required>
 

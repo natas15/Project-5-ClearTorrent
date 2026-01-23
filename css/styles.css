@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'OldEnglish';
+    src: url('../boi.ttf');
+}
+
 body {
     margin: 0;
     --primary-color: blue;
-    font-family: Arial, sans-serif;
+    font-family: 'OldEnglish', "Old English Text", Blackletter, serif;
     background: #0f0f17;
     color: #eaeaea;
 }
@@ -93,7 +98,6 @@ footer {
     border-radius: 12px;
     background: linear-gradient(180deg, rgba(28,28,43,0.8), rgba(20,20,30,0.8));
     box-shadow: 0 6px 20px rgba(0,0,0,0.45);
-    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, system-ui;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -197,7 +201,6 @@ footer {
     align-items: center;
     justify-content: center;
     color: #eaeaea;
-    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, system-ui;
     font-weight: 700;
     font-size: 1.25rem;
     letter-spacing: 0.2px;
@@ -284,7 +287,6 @@ footer {
     align-items: center;
     justify-content: center;
     color: #eaeaea;
-    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, system-ui;
     font-weight: 700;
     font-size: 1.25rem;
     letter-spacing: 0.2px;
