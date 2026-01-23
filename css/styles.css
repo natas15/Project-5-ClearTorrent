@@ -613,7 +613,6 @@ footer {
     box-shadow: 0 5px 15px rgba(33, 150, 243, 0.4);
 }
 
-/* Pagination Styles */
 .pagination {
     display: flex;
     justify-content: center;
@@ -685,3 +684,4 @@ footer {
 .danger button:hover {
     opacity: 0.9;
 }
+
