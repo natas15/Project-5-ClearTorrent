@@ -14,11 +14,8 @@
     <div class="checkout-container">
         <form action="confirmation.php" method="POST">
             <h2>Contact Us</h2>
-            <label>Name</label>
-            <input type="text" name="name" required>
-
-            <label>Email</label>
-            <input type="email" name="email" required>
+            <label>Subject</label>
+            <input type="text" name="subject" required>
 
             <label>Message</label>
             <input type="text" name="message" required>
