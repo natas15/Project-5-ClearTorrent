@@ -6,7 +6,7 @@
 body {
     margin: 0;
     --primary-color: blue;
-    font-family: 'OldEnglish', "Old English Text", Blackletter, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: #0f0f17;
     color: #eaeaea;
 }
